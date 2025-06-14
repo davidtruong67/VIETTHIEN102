@@ -4,7 +4,6 @@ from agent.chroma_memory import recall_from_memory, add_to_memory
 from agent.langchain_agent import ask_bot
 
 # Gán API Key cho OpenAI
-os.environ["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"] = st.secrets["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"]
 
 st.set_page_config(page_title="Chatbot Việt Thiên", layout="wide")
 st.title("🤖 Trợ lý AI - Việt Thiên")
